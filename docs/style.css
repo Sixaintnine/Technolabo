@@ -14,10 +14,13 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	display: block;
+	opacity: 50%;
+}
+
+.showcase::after {
 	filter: blur(10px);
 	-webkit-filter: blur(10px);
 	transition: all 1000ms;
-	opacity: 50%;
 }
 
 .showcase:hover::after {
